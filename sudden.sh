@@ -3,7 +3,13 @@
 FILE=~/tmp/_SUDDEN
 
 while true
-do
-	echo "check"
+do	
+	if [[ -f "$FILE" ]]; then
+	    #echo "check $FILE"
+	    echo "SUDDEN!!!"
+	else
+	    clear
+	    date
+	fi
 	sleep 3
 done
