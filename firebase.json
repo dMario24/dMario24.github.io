@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "samdulshop",
     "public": "docs",
     "ignore": [
       "firebase.json",
